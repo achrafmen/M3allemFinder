@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmer la demande</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-wrap"><main class="app-screen"><div class="content">
+  <div class="topbar">
+    <span class="icon-plain" style="color:#2b7ce4"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/><path d="M9 12h10"/></svg></span>
+    <div class="topbar-title center" style="font-size:22px;">Confirmer la demande</div>
+    <span style="width:26px"></span>
+  </div>
+  <div class="screen-divider"></div>
+
+  <div class="overline-blue mt-20">✱ DEMANDE URGENTE</div>
+
+  <section class="card header-panel mt-12">
+    <img src="assets/map-banner.png" class="map-banner" alt="Carte">
+    <div class="header-body">
+      <div style="display:flex; justify-content:space-between; gap:12px; align-items:start;">
+        <div>
+          <div style="font-size:26px; color:var(--blue); font-weight:900; letter-spacing:-.03em;">Plomberie</div>
+          <div class="subtitle-location mt-8"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-5.6 7-12a7 7 0 1 0-14 0c0 6.4 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg> <span style="vertical-align:middle; margin-left:3px;">Autour de moi</span></div>
+        </div>
+        <div class="inline-status">EN DIRECT</div>
+      </div>
+      <div class="screen-divider" style="margin:18px 0;"></div>
+      <div class="label">Description</div>
+      <div style="font-size:18px; color:#4a433f; margin-top:6px;">"Fuite sous l’évier de la cuisine"</div>
+    </div>
+  </section>
+
+  <h2 class="section-title mt-24" style="font-size:24px;">Artisan sélectionné</h2>
+  <section class="card selected-worker mt-10">
+    <div class="worker-avatar-wrap" style="width:84px;height:84px;"><img class="worker-avatar" src="assets/avatar-karim.png" alt="Karim A." style="width:80px;height:80px;"><div style="position:absolute; right:4px; bottom:1px; width:24px; height:24px; background:#2cc65b; border:4px solid white; border-radius:50%;"></div></div>
+    <div>
+      <div class="worker-name" style="font-size:22px; margin:0 0 8px;">Karim A.</div>
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <div class="eta-pill"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> ~12 min</div>
+        <div class="muted" style="font-size:16px;">Plombier Certifié</div>
+      </div>
+    </div>
+    <div class="rating-line" style="margin:0; font-size:18px; color:#2b7ce4; font-weight:900;"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6 1-4.8 4.7 1.1 6.6-5.8-3.1-5.8 3.1 1.1-6.6L2.5 9.5l6.6-1L12 2.5Z"/></svg> 4.9</div>
+  </section>
+
+  <section class="card price-panel mt-20">
+    <div class="price-head"><div style="font-size:18px; color:#534a45;">Prix Fixe</div><div class="price-big">150 MAD</div></div>
+    <div class="screen-divider" style="margin:14px 0 18px;"></div>
+    <div style="display:grid; grid-template-columns: 32px 1fr; gap:12px; align-items:start; color:#4e4640; font-size:16px; line-height:1.35;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3s7 2 8 3v5c0 5-3 8-8 10-5-2-8-5-8-10V6c1-1 8-3 8-3Z"/><path d="m9 12 2 2 4-4"/></svg><div>Prix garanti, aucune surprise. Facturation transparente.</div></div>
+  </section>
+
+  <div class="label mt-28">Mode de paiement</div>
+  <div class="pay-grid mt-18">
+    <button class="btn-secondary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/></svg> Payer par Carte</button>
+    <button class="btn-outline"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 12h10"/><path d="M16 9c.8 1.2 2 2 3 2-1 .2-2.2 1-3 2"/><path d="M8 9c-.8 1.2-2 2-3 2 1 .2 2.2 1 3 2"/></svg> Payer sur place</button>
+  </div>
+
+  <div class="mt-28"><button class="btn-primary">Confirmer la demande <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button></div>
+  <button class="btn-ghost mt-20">Modifier les détails</button>
+</div></main></div>
+
+</body>
+</html>
